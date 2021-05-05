@@ -1,6 +1,285 @@
-.App {
-  text-align: center;
+.App-back {
+  background-color: rgb(107, 172, 10);
+  min-height: 100vh;
+  padding: 5%;
+  margin: 0;
 }
+
+.App-back .ban {
+  border: solid 1px black;
+  
+  min-height: 20vh;
+  color: rgb(107, 172, 10);
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px white;
+  font-size: 5vw;
+
+
+  
+}
+
+
+.App-back .App {
+  border: outset black;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  padding: 1%;
+  background-color: black;
+  
+
+}
+
+.App-back .App .NameHeader {
+  
+  display: flex;
+  border: solid 1px black;
+  background-color: black;
+  
+
+  
+}
+
+.App-back .App .searchForm {
+  
+  
+  border: solid 1px black;
+  height: 8vh;
+  background-color: black;
+  padding-left: 5%;
+  
+  
+}
+
+.App-back .App .searchForm .searchBar {
+  
+  font-size: medium;
+  
+  width: 70%;
+  height: 90%;
+  border-radius: 5px;
+  font-weight:500;
+  padding-left: 1%;
+  
+  
+}
+
+.App-back .App .searchForm .btnS {
+  font-size: medium;
+  min-height: 90%;
+  min-width: 15%;
+  border-radius: 3px;
+  border: whitesmoke solid 1px;
+  background-color: rgb(107, 172, 10);
+  color: whitesmoke;
+}
+
+.App-back .App .searchForm .btnS:hover {
+  font-size: medium;
+  min-height: 90%;
+  min-width: 15%;
+  border-radius: 3px;
+  border: whitesmoke solid 1px;
+  background-color: green;
+  color: black;
+}
+
+
+.App-back .App .NameHeader .AppName {
+  
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border: solid 1px black;
+  min-width: 30%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 23%;
+  position: relative;
+  
+}
+
+.App-back .App .NameHeader .AppName .nameText {
+  
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border: solid 1px black;
+  min-width: 60%;
+  min-height: 80%;
+  font-size: 5vw;
+  font-weight: bolder;
+  
+  color: whitesmoke;
+  font-style: italic;
+}
+
+.App-back .App .shopLogo {
+  
+  width: 20%;
+  height: 90%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  
+  border: solid 1px black;
+}
+
+.App .sResNom
+{
+  padding: 2%;
+  min-height: 90%;
+ 
+  display: flex;
+
+}
+
+.App .sResNom .sRes
+{
+
+  padding: 2%;
+  border: solid 1px black;
+  min-width : 45%;
+  
+}
+
+.App .sResNom .sRes .res
+{
+  color: white;
+  margin: 3%;
+  min-height: 1.5%;
+  font-size: 22px;
+}
+
+.App .sResNom .Nom .nomHead
+{
+  color: white;
+  margin: 3%;
+  min-height: 1.5%;
+  font-size: 22px;
+
+}
+
+.App .sResNom .Nom
+{
+  display: table-row;
+  border: solid 1px black;
+  padding:2%;
+  margin-left: 2%;
+  min-width: 45%;
+ 
+  
+}
+
+.App .sResNom .sRes .movieBox{
+
+  display: flex;
+  border: solid 1px white;
+  padding: 2%;
+  margin: 3%;
+
+
+}
+
+.App .sResNom .Nom .NomiBox{
+
+  display: flex;
+  border: solid 1px white;
+  padding: 2%;
+  margin: 2%;
+
+}
+
+
+
+
+
+.App .sResNom .sRes .movieBox .info{
+
+ 
+  display: table-row;
+  align-content: center;
+  justify-content: center;
+  padding-top: 15%;
+  padding-bottom: 10%;
+  
+  padding-right: 10%;
+  width: 50%;
+  height: 80%;
+  position: relative;
+  color: whitesmoke;
+  font-size: medium;
+}
+
+.App .sResNom .sRes .movieBox .info .btnS:hover:enabled
+{
+  color: whitesmoke;
+  background-color: rgb(107, 172, 10);
+
+}
+
+.App .sResNom .sRes .movieBox .info .btnS
+{
+  
+  border-radius: 5px;
+  font-size: medium;
+  min-height: 20%;
+  min-width: 35%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: white;
+ 
+}
+
+
+.App .sResNom .Nom .NomiBox .nPoster{
+  margin: 2%;
+  min-width: 15vw;
+  min-height: 20vh;
+}
+
+.App .sResNom .Nom .NomiBox .nInfo .btnN
+{
+  background-color: rgb(107, 172, 10);
+  color: white;
+  border-radius: 5px;
+  font-size: medium;
+  min-height: 30%;
+  min-width: 50%;
+  border: whitesmoke solid 1px;
+  
+}
+.App .sResNom .Nom .NomiBox .nInfo .btnN:hover
+{
+  background-color: whitesmoke;
+  color : black;
+  border-radius: 5px;
+  border: black solid 1px;
+}
+
+.App .sResNom .Nom .NomiBox .nInfo{
+
+  display: table-row;
+  align-content: center;
+  justify-content: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-right: 10%;
+  width: 50%;
+  height: 40%;
+  color: whitesmoke;
+  font-size: medium;
+
+}
+
+.App .sResNom .sRes .movieBox .poster{
+  margin: 2%;
+  width: 40%;
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +315,4 @@
     transform: rotate(360deg);
   }
 }
+
