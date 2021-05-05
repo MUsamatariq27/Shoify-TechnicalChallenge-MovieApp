@@ -152,7 +152,7 @@ const App = () => {
         <form className="searchForm" onSubmit={getMovies} >
 
           <input type="text" placeholder="Search Movie Title" className="searchBar" name="movie"
-          value={query}
+          
           onChange={ e => setQuery(e.target.value) } />
           <input className="btnS" type="submit" text="search"/>
           
