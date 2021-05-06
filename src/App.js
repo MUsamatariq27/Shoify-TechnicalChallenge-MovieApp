@@ -58,7 +58,7 @@ const App = () => {
 
     if (query !== "")
     {
-      const url = `http://www.omdbapi.com/?s=${query}&apikey=f432b1e3&`;
+      const url = `https://www.omdbapi.com/?s=${query}&apikey=f432b1e3&`;
       const resp = await fetch(url);
       const data = await resp.json();
 
@@ -105,7 +105,6 @@ const App = () => {
       let arr = nominations;
       arr.push(m);
       setnom(arr);
-      console.log(nominations);
   }
 
   //removing a movie from the nomination list
@@ -143,7 +142,7 @@ const App = () => {
         <div className="NameHeader" >
 
           <div className="AppName">
-            <div class="nameText">The Shoppies</div>
+            <div className="nameText">The Shoppies</div>
           </div>
           <img className="shopLogo" src={logo} alt="Shopify Logo"/>
 
